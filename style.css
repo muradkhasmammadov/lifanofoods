@@ -217,27 +217,109 @@ nav{
     color: rgb(4, 4, 105);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.get-touch{
+    margin-top: 100px;
+    float: right;
+}
 .contact{
     width: 100%;
-    height: 70vh;
-    background-color: #ebebe8;
-    float: left;
+    height: 80vh;
+    border-radius: 4px;
+    background: url('https://images.pexels.com/photos/940302/pexels-photo-940302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.contact-address {
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, 25%);
+.get-touch center h1{
+    font-size: 36px;
+    font-family: initial;
+    color: #000;
+    font-weight: bold;
 }
-.contact-address h4{
-
+.form-part img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.get-touch form{
+   text-align: center;
+   /* position: relative; */
+   top: 20%;
+}
+.get-touch input{
+    /* width: 25%; */
+    height: 50px;
+    font-size: 15px;
+    font-family: serif;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .5px solid #fff;
+    color:#fff;
+}
+.get-touch input,textarea:focus{
+    outline: .3px solid transparent;
+}
+.get-touch textarea{
+    width: 50%;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: serif;
+    border-radius: 4px;
+    background-color: transparent;
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    border: .5px solid #fff;
+    color:#fff;
+}
+.get-touch ::placeholder{
+    color: #000;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
-
-
-
-
-
+.get-touch button{
+    width: 18%;
+    height: 40px;
+    border: .5px solid #ecb02c;
+    background-color:  rgba(237, 182, 84, 1);
+    margin-top: 20px;
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+}
+.address-part{
+    padding: 50px;
+}
+.address-part h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.address-part i{
+    font-size: 20px;
+    color: rgb(57, 4, 4);
+}
+.contact-info{
+    font-family: serif;
+    font-weight: bold;  
+    font-size: 18px; 
+}
+.address{
+    margin-top: 40px;
+}
+.address span, .email span, .phone span, .website span{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+}
+.address-part address{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
