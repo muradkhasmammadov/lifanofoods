@@ -7,85 +7,146 @@ body{
     background-color: #f1f1f1;
 
 }
-.navbar-pc{
+header{
     width: 100%;
-    height: 80px;
-    background: #fff;
+    height: 70px;
+}
+nav{
+    background-color: #beada5;
     overflow: hidden;
     top: 0; 
     width: 100%; 
     position: fixed;
     z-index: 100;
+    transition: all .5s ease-in-out;
 }
-nav a{
+  .head-right{
+    width: 33%;
+    float: left;
+    padding-top: 12px;
+  }
+  .head-right ul li{
     text-decoration: none;
-    color: rgb(4, 4, 105);
-    transition: all 1s step-end;
-}
-nav a:hover{
-    border-bottom-style: solid;
-    border-bottom-color: orange;
-    width: fit-content;
-    transition: width 2s linear 2s;
-}
-.navbar-pc{
-    width: 100%; 
-}
-.navbar-left h5{
-    padding: 20px;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-decoration: none;
-}
-.navbar-right ul{
-    float: right;
-}
-.navbar-right ul li{
     display: inline-block;
-    padding: 20px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+}
+.head-right a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all .5s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+.head-right a:hover{
+    color: chocolate;
+}
+.head-center{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 16px;
+}
+.hidden-head{
+  width: 150px;
+  position: relative;
+  top: 50%; left: 50%;
+  transform: translate(-50%,10%);
+  display: none;
+  padding-top: 5px;
+}
+.hidden-head  h4{
+  color: #fff;
+  float: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.head-center-inside{
+    width: 150px;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%,10%);
 }
 
-nav i{
-    font-size: 25px;
-    color: rgb(4, 4, 105);
-    position: relative;
-    padding: 20px;
+.head-center-inside h4{
+    color: #fff;
     float: right;
-    cursor: pointer;
-    display: block;
-    z-index: 1003;
-    display: none!important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
-.nav-mobile{
-    display: none!important;
-}
-.responsive-navbar{
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-    position: relative;
-    z-index: 101;
-    overflow: hidden;
-    top: 0; 
-    width: 100%; 
-    position: fixed;
-    z-index: 100;
-    text-align: center;
-}
-.responsive-navbar img{
-    width: 100%;
-    height: 50%;
-    padding: 20px;
-}
-.responsive-navbar ul li{
-    display: block;
-    text-align: left;
-    padding: 10px;
-    color: rgb(4, 4, 105);;
-}
-.responsive-navbar ul li a{
+.head-left{
+    width: 30%;
+    float: left;
+    padding-top: 8px;
+  }
+.head-left ul li{
     text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    float: right;
+ }
+ .head-left i{
+    font-size: 20px;
+ }
+ .head-left ul li a i::nth-child(1){
+    color: red;
+ }
+ .head-left ul li a i::nth-child(2){
+    color: blue;
+ }
+ .head-left ul li a i::nth-child(3){
+    color: green;
+ }
+ .hamburger{
+   width: 3%;
+   float: right;
+   padding-top: 8px;
+   display: none;
+ }
+ .fa-bars{
+   float: right;
+   margin: 10px;
+   font-size: 30px;
+   cursor: pointer;
+   color: #fff;
+ }
+.toggle-button{
+  width: 100%;
+  height: 270px;
+  background-color: #fff;
+  position: relative;
+  z-index: 111  ;
+  display: none;
+}
+.toggle-button ul li{
+  list-style-type: none;
+  color: darkblue;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: sans-serif;  
+}
+.toggle-button a{
+    text-decoration: none;
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all .5s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+.toggle-button ul a:hover{
+  margin: 5px;
+  color: chocolate;
+}
+.toggle-button hr{
+  height: 1px;
+}
+.carousel{
+    position: absolute;
 }
 .carousel-item img{
     width: 100%;
@@ -175,6 +236,18 @@ nav i{
 
 
 
+
+@media screen and (max-width: 990px) {
+    .hamburger,.hidden-head{
+        display: block;
+      }
+      .head-right ul, .head-center{
+        display: none;
+      }
+      .head-left ul li,button{
+        display: none;
+      }
+}
 
 @media screen and (max-width: 767px) {
     .about-text {

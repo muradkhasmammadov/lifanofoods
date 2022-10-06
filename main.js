@@ -1,5 +1,9 @@
 $(document).ready(function(){
+    $('.login').click(function(){
+        $('.hover-login-part').toggle();
+        $('.hover-login-part').css('transition','1s');
+    })
     $('.fa-bars').click(function(){
-        $('body').css("background-color", "red");
+        $('.toggle-button').slideToggle();
     })
 })
