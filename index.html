@@ -1,236 +1,1414 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaurma N1</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/4f43897051.js" crossorigin="anonymous"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>SpicyX | Home</title>
 
-</head>
-<body>
-    <header>
-        <nav id="navbar" class="">
-            <div class="offcanvas-menu-overlay"></div>
-        
-            <div class="canvas-open menuIcon">
-              <span class="icon icon-bars"></span>
-              <span class="icon icon-bars overlay"></span>
-            </div>
-            <div class="offcanvas-menu-wrapper">
-             <nav class="main-menu">
-               <center>
-                 <h1>
-                   <a href="#">Elfimait</a>
-                 </h1>
-               </center>
-                 <ul class="mt-5">
-                    <li class="active"><a href="./index.html" rel="nofollow">Home</a></li>
-                    <li><a href="#Xidmətlərimiz">About</a></li>
-                    <li><a href="userpage.html">Products</a></li>
-                    <li><a href="#address">Contact</a></li>
-                 </ul>
-             </nav>
-         </div>
-            <div class="nav-wrapper">
-              <div class="logo">
-                <a href="#home"><i class="fas fa-hat-chef"></i>Elfimait</a>
-              </div>
-          
-              <ul id="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">About</a></li>
-                <li><a href="userpage.html">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-        
-            </div>
-           
-          </nav>
-    </header>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">    
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
     
-    <section class="carousel container-fluid">
-        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="Images/IMG_6762.JPG" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="Images/Kunefe 2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Images/Pista Leaves 150 gr.JPG" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+  </head>
+  <body>  
+  <!-- Pre Loader -->
+  <div id="aa-preloader-area">
+    <div class="mu-preloader">
+      <img src="assets/img/preloader.gif" alt=" loader img">
+    </div>
+  </div>
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+      <span>Top</span>
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->                                                        
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a> 
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="#mu-slider">HOME</a></li>
+            <li><a href="#mu-about-us">ABOUT US</a></li>                       
+            <li><a href="#mu-restaurant-menu">PRODUCTS</a></li>                       
+            <li><a href="#mu-contact">CONTACT</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+ 
+
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+      <!-- Top slider -->
+      <div class="mu-top-slider">
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single" style="width: 100%; height: 110vh;">
+          <img src="assets/img/slider/sarma.jpg" alt="img" width="100%" height="100%">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Welcome</span>
+            <h2 class="mu-slider-title">TO THE LIFANO FOODS</h2>
+            <p>
+              An exceptional new
+              concept to bring you the best delicacies and
+              qualities of Anatolia and Mediterranean.
+            </p>           
+            <a href="#" class="mu-readmore-btn">READ MORE</a>
           </div>
-    </section>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single" style="width: 100%; height: 110vh;">
+          <img src="assets/img/slider/Kunefe 2.jpg" alt="img" width="100%" height="100%">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">The Real</span>
+            <h2 class="mu-slider-title">SWEETMEATS</h2>
+            <p>
+              An old saying advises one to “Eat
+              sweetly and speak sweetly”.
+            </p>           
+            <a href="#" class="mu-readmore-btn">READ MORE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single"8 style="width: 100%; height: 110vh;">
+          <img src="assets/img/slider/fıstıklı.png " alt="img" width="100%" height="100%">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Delicious</span>
+            <h2 class="mu-slider-title">FRESH FOODS</h2>
+            <p>
+              From ingredients to packaging and shipping,
+              we have installed a 100% reliable and consistent quality
+              monitoring process to ensure that every
+              Lifano product has impeccable taste,
+              freshness and appeal.  
+            <p>           
+            <a href="#" class="mu-readmore-btn">READ MORE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
 
-    <section class="about container-fluid">
+  <!-- Start About us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>ABOUT US</h2>
+              <i class="fa fa-spoon"></i>              
+              <span class="mu-title-bar"></span>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mu-about-us-left">
+                 <p>
+                    Lifano Foods introduces an exceptional new
+                    concept to bring you the best delicacies and
+                    qualities of Anatolia and Mediterranean. We
+                    are offering a cornucopia of Mediterranean’s
+                    authentic and quality foods under our brand.
+                    Launched with the slogan of “Discover
+                    Mediterranean Kitchen”, our products are
+                    unique examples of the Mediterranean
+                    kitchen. An old saying advises one to “Eat
+                    sweetly and speak sweetly”. Sweets and
+                    desserts have always been an important
+                    and distinctive element of Mediterranean
+                    cuisine. That was true in ancient times and
+                    is just as true today. <br> <br>
+                    <b>Our products:</b> 
+                 </p>                              
+                  <ul>
+                    <li>Lamour de Paris</li>                    
+                    <li>Lifano Dessert Dishes</li>
+                    <li>Lifano Bakery Dishes</li>
+                    <li>Lifano Fresh Meals</li>                    
+                    <li>Lifano Marash Icecreams</li>                    
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mu-about-us-right">                
+                 <ul class="mu-abtus-slider">                 
+                   <li style="width: 500px; height: 400px;"><img src="assets/img/about-us/marash.png  " alt="img" width="100%" height="100%"></li>
+                   <li style="width: 500px; height: 400px;"><img src="assets/img/about-us/borek.png" alt="img" width="100%" height="100%"></li>
+                   <li style="width: 500px; height: 400px;"><img src="assets/img/about-us/cheesecake.png" alt="img" width="100%" height="100%"></li>
+                   <li style="width: 500px; height: 400px;"><img src="assets/img/about-us/baklava_cikolotali.png" alt="img" width="100%" height="100%"></li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+
+  <!-- Start Counter Section -->
+  <section id="mu-counter" style="background-image: url('assets/img/back.png');">
+    <div class="mu-counter-overlay">
+      <div class="container">
         <div class="row">
-            <div class="col-md-6 about-image">
-                <img src="Images/logo2.jpg" alt="Shaurma">
+          <div class="col-md-12">
+            <div class="mu-counter-area">
+            <ul class="mu-counter-nav">
+              <li class="col-md-3 col-sm-3 col-xs-12">
+                <div class="mu-single-counter">
+                  <span>Fresh</span>
+                  <h3><span class="counter">55</span><sup>+</sup></h3>
+                  <p>Breakfast Items</p>
+                </div>
+              </li>
+              <li class="col-md-3 col-sm-3 col-xs-12">
+                <div class="mu-single-counter">
+                  <span>Delicious</span>
+                  <h3><span class="counter">130</span><sup>+</sup></h3>
+                  <p>Dinner Items</p>
+                </div>
+              </li>
+               <li class="col-md-3 col-sm-3 col-xs-12">
+                <div class="mu-single-counter">
+                  <span>Hot</span>
+                   <h3><span class="counter">35</span><sup>+</sup></h3>
+                  <p>Coffee Items</p>
+                </div>
+              </li>
+               <li class="col-md-3 col-sm-3 col-xs-12">
+                <div class="mu-single-counter">
+                  <span>Satisfied</span>
+                  <h3><span class="counter">3562</span><sup>+</sup></h3>
+                  <p>Customers</p>
+                </div>
+              </li>
+            </ul>
             </div>
-            <div class="col-md-6 about-text">
-                <h1>About us</h1>
-                <p>Elfimaitsemaja professionally supplies the highest quality products globally to professional food establishments all over the world.  
-                   From production to consumption, in cooperation with a global company, it provides all the products you will need in your business with 
-                   its expert staff as soon as possible and delivers them to you quickly under suitable conditions. <br> <br> Quality <br> <br>
-                   There are things that become a part of your life and your character.  You just take it too seriously and stepping back is never an option. 
-                   Elifimaitsemaja strictly abides by rules and regulations to provide its customers with the best product standards.
-                </p>
-                <br>
-                <hr>    
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
+  <!-- End Counter Section --> 
 
-    <section class="products mt-5 container-fluid center">
-        <center>    
-            <h1>Our Products</h1>
-        </center>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 products-images">
-                <img src="Images/IMG_6772.JPG" alt="">
-                <div class="image-text">
-                    <h6>Lezza Icecream</h6>
-                    <p></p>
-                </div>
+  <!-- Start Restaurant Menu -->
+  <!-- <section id="mu-restaurant-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-restaurant-menu-area">
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>OUR PRODUCTS</h2>
+              <i class="fa fa-spoon"></i>              
+              <span class="mu-title-bar"></span>
             </div>
-            <div class="col-md-3 col-sm-6 products-images">
-                <img src="Images/Kunefe 2.jpg" alt="">
-                <div class="image-text">
-                    <h6>Turkish Kunefe</h6>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 products-images">
-                <img src="Images/Maras Icecream Cacao 250 gr 3.JPG" alt="">
-                <div class="image-text">
-                    <h6>Lezza Icecream</h6>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 products-images">
-                <img src="Images/Baklava with Pistachio 460 gr.JPG" alt="">
-                <div class="image-text">
-                    <h6>Baklave with pistachio</h6>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 products-images mt-3">
-                <img src="Images/61613868-bfa1-4822-90df-a5f8244eb5f7.jpg" alt="">
-                <div class="image-text">
-                    <h6>Leaf Dolma</h6>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 products-images mt-3">
-                <img src="Images/Walnuts_2500gr.jpg" alt="">
-                <div class="image-text">
-                    <h6>Lezza Baklave</h6>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 products-images mt-3">
-                <img src="Images/IMG_6774.JPG" alt="">
-                <div class="image-text">
-                    <h6>Lezza Icecream</h6>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 products-images mt-3">
-                <img src="Images/Pista Leaves 150 gr.JPG" alt="">
-                <div class="image-text">
-                    <h6>Pista Leaves</h6>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <center class="all-products">
-        <a href="products.html">Click to see more products...</a>
-        </center>
-    </section>
+            <div class="mu-restaurant-menu-content">
+              <ul class="nav nav-tabs mu-restaurant-menu">
+                <li class="active"><a href="#breakfast" data-toggle="tab">Lamour de Paris</a></li>
+                <li><a href="#meals" data-toggle="tab">Lifano Bakery</a></li>
+                <li><a href="#snacks" data-toggle="tab">Lifano Dessert</a></li>
+                <li><a href="#desserts" data-toggle="tab">Lifano Fresh</a></li>
+                <li><a href="#drinks" data-toggle="tab">Lifano Icecream</a></li>
+              </ul>
 
-    <section class="get-touch container-fluid " id="contact">
-        <div class="row contact">
-            <div class="col-lg-6 col-md-6 form-part">
-                <form>
-                    <input type="text" placeholder="Your Name"><br>
-                    <input type="email" placeholder="example@gmail.com"><br> <br>
-                    <textarea name="message" placeholder="Your Messages here"></textarea><br>
-                    <a href="#"> <button>Send</button></a>
-                </form>
+              <!-- Tab panes -->
+              <!-- <div class="tab-content">
+                <div class="tab-pane fade in active" id="breakfast">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-2.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-2.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade " id="meals">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade " id="snacks">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-6.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-6.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade " id="desserts">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-7.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-8.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-7.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-8.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-7.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-8.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade " id="drinks">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-9.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-10.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-9.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-9.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-10.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/item-9.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 col-md-6 address-part">
-                <h4>Contact Us</h4>
-                <p class="contact-info">We are open for any suggestion or just have a chat</p>
-                    <div class="address">
-                        <address>
-                            <i class="fa fa-location-pin"></i>
-                            <span>ADDRESS: </span>
-                            196, West 21th 
-                            Street, Sulte 721 
-                            New York NY 10016
-                        </address>
-                    </div>
-                    <div class=" email">
-                        <p>
-                            <i class="fa fa-envelope"></i>
-                            <span>EMAIL: </span>
-                            ahmetcatal616@gmail.com
-                        </p>
-                    </div>
-                    <div class="phone">
-                        <p>
-                            <i class="fa fa-phone"></i>
-                            <span>PHONE: </span>
-                            +3722182312
-                        </p>
-                    </div>
-                    <div class="website">
-                        <p>
-                            <i class="fa fa-chrome"></i>
-                            <span>WEBSITE: </span>
-                            elifimaitsemaja.com
-                        </p>
-                    </div>
-            </div>
+          </div>
         </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</body>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Restaurant Menu -->
+
+  <section id="mu-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-gallery-area">
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>Our Products</h2>
+              <i class="fa fa-spoon"></i>              
+              <span class="mu-title-bar"></span>
+            </div>
+            <div class="mu-gallery-content">
+              <div class="mu-gallery-top">
+                <!-- Start gallery menu -->
+                <ul>
+                  <li class="filter" data-filter="all">ALL</li>
+                  <li class="filter" data-filter=".lamour">Lamour de Paris</li>
+                  <li class="filter" data-filter=".dessert">Lifnao Dessert</li>
+                  <li class="filter" data-filter=".bakery">Lifano Bakery</li>
+                  <li class="filter" data-filter=".fresh">Lifano Fresh Meals</li>
+                  <li class="filter" data-filter=".icecream">Lifano Icecream</li>
+                </ul>
+              </div>
+              <!-- Start gallery image -->
+              <div class="mu-gallery-body" id="mixit-container">
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix lamour">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/lamour2.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/lamour2.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix lamour">                  
+                  <div class="mu-single-gallery-item">
+                   <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/lamour3.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/lamour3.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix lamour">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/lamour4.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/lamour4.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix lamour">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/lamour5.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/lamour5.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>   
+                  </div>
+                </div>               
+                <!-- End single gallery image -->               
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix lamour">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/lamour6.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/lamour6.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix lamour">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/lamour1.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/lamour1.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->         
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+
+                <div class="mu-single-gallery col-md-4 mix dessert">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/dessert1.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/dessert1.png" data-dessertox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                 <div class="mu-single-gallery col-md-4 mix dessert">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/dessert2.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/dessert2.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix dessert">                  
+                  <div class="mu-single-gallery-item">
+                   <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/dessert3.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/dessert3.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix dessert">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/dessert4.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/dessert4.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix dessert">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/dessert5.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/dessert5.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>   
+                  </div>
+                </div>               
+                <!-- End single gallery image -->               
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix dessert">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/dessert6.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/dessert6.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery1.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery1.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery2.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery2.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery3.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery3.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery4.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery4.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery5.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery5.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery6.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery6.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix bakery">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/bakery7.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                     <a href="assets/img/gallery/big/bakery7.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix fresh">                  
+                  <div class="mu-single-gallery-item">
+                   <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/fresh1.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh1.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix fresh">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/fresh2.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh2.png" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix fresh">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/fresh3.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh3.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix fresh">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/fresh4.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh4.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix fresh">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/fresh5.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh5.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix fresh">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/fresh6.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh6.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix icecream">                  
+                  <div class="mu-single-gallery-item">
+                   <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/icecream1.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh1.icecream" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+                <!-- End single gallery image -->
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix icecream">                  
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/icecream2.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/fresh2.icecream" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix icecream">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/icecream3.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/icecream3.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix icecream">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/icecream4.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/icecream4.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix icecream">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/icecream5.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/icecream5.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="mu-single-gallery col-md-4 mix icecream">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/big/icecream6.png"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/icecream6.png" fresh1.pngfancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>                  
+                  </div>
+                </div>
+                
+                <!-- End single gallery image -->                         
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+  
+
+  <!-- Start Chef Section -->
+  <section id="mu-chef">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-chef-area">
+            <div class="mu-title">
+              <span class="mu-subtitle">Our Supporters</span>
+              <h2>Brands</h2>
+              <i class="fa fa-spoon"></i>              
+              <span class="mu-title-bar"></span>
+            </div>
+            <div class="mu-chef-content">
+              <ul class="mu-chef-nav">
+                <li>
+                  <div class="mu-single-chef" style="background-color: #c1a35f;">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/lamour.png" alt="chef img">
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div class="mu-single-chef" style="background-color: #c1a35f;">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/lifano-bakery-logo.png" alt="chef img">
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div class="mu-single-chef"  style="background-color: #c1a35f;">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/lifano-dessert-logo.png" alt="chef img">
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div class="mu-single-chef"  style="background-color: #c1a35f;">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/lifano-logo-fresh.png" alt="chef img">
+                    </figure>
+                  </div>
+                </li>  
+                <li>
+                  <div class="mu-single-chef"  style="background-color: #c1a35f;">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/lifano-logo-icecream1.png" alt="chef img">
+                    </figure>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Chef Section -->
+
+  <!-- Start Latest News -->
+  
+  <!-- End Latest News -->
+
+  <!-- Start Contact section -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+            <div class="mu-title">
+              <span class="mu-subtitle">Get In Touch</span>
+              <h2>Contact Us</h2>
+              <i class="fa fa-spoon"></i>              
+              <span class="mu-title-bar"></span>
+            </div>
+            <div class="mu-contact-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <form class="mu-contact-form">
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>                      
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>                        
+                        <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                      </div>                      
+                      <button type="submit" class="mu-send-btn">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mu-contact-right">
+                    <div class="mu-contact-widget">
+                      <h3>Office Address</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+                      <address>
+                        <p><i class="fa fa-phone"></i> +37255507776 
+                        </p>
+                        <p><i class="fa fa-envelope-o"></i>lifanofoods@gmail.com</p>
+                        <p><i class="fa fa-map-marker"></i>Estonia</p>
+                      </address>
+                    </div>
+                    <div class="mu-contact-widget">
+                      <h3>Open Hours</h3>                      
+                      <address>
+                        <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
+                        <p><span>Saturday</span> 9.00 am to 10 pm</p>
+                        <p><span>Sunday</span> 10.00 am to 12 pm</p>
+                      </address>
+                      <a href="./assets/img/Product List 2021-22 AVRUPA_Lifano_ENG.pdf.pdf" download="newfilename">Click to download the Product List</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+
+  <!-- Start Map section -->
+  <!-- <section id="mu-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0"allowfullscreen></iframe>
+  </section> -->
+  <!-- End Map section -->
+
+  <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+           <div class="mu-footer-social">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-google-plus"></span></a>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-youtube"></span></a>
+          </div>
+          <div class="mu-footer-copyright">
+            <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/waypoints.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+
+  </body>
 </html>
