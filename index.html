@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
     <!-- Theme color -->
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+    <link rel="stylesheet" href="scss/modules/_responsive.scss">
 
     <!-- Main style sheet -->
     <link href="style.css" rel="stylesheet">    
@@ -33,6 +34,20 @@
     
 
   </head>
+  <style>
+    @media(max-width:480px ){
+      
+      .mu-top-slider-content {	 
+      display: block!important;
+      }
+      .mu-top-slider-content  h2{
+        font-size: 25px!important;	 
+      }
+      .mu-top-slider-content  p{
+        font-size: 20px!important;	 
+      }
+    }
+  </style>
   <body>  
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
@@ -66,7 +81,7 @@
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
             <li><a href="#mu-slider">HOME</a></li>
             <li><a href="#mu-about-us">ABOUT US</a></li>                       
-            <li><a href="#mu-restaurant-menu">PRODUCTS</a></li>                       
+            <li><a href="#mu-gallery">PRODUCTS</a></li>                       
             <li><a href="#mu-contact">CONTACT</a></li> 
           </ul>                            
         </div><!--/.nav-collapse -->       
@@ -83,15 +98,13 @@
       <div class="mu-top-slider">
         <!-- Top slider single slide -->
         <div class="mu-top-slider-single" style="width: 100%; height: 110vh;">
-          <img src="assets/img/slider/sarma.jpg" alt="img" width="100%" height="100%">
+          <img src="assets/img/slider/baklava.png" alt="img" width="100%" height="100%">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Welcome</span>
             <h2 class="mu-slider-title">TO THE LIFANO FOODS</h2>
             <p>
-              An exceptional new
-              concept to bring you the best delicacies and
-              qualities of Anatolia and Mediterranean.
+              Lifano foods brings to you the best delicacies of Anatolia and Mediterranean.
             </p>           
             <a href="#" class="mu-readmore-btn">READ MORE</a>
           </div>
@@ -100,7 +113,7 @@
         <!-- / Top slider single slide -->    
          <!-- Top slider single slide -->
         <div class="mu-top-slider-single" style="width: 100%; height: 110vh;">
-          <img src="assets/img/slider/Kunefe 2.jpg" alt="img" width="100%" height="100%">
+          <img src="assets/img/slider/Icli-kofte.png" alt="img" width="100%" height="100%">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">The Real</span>
@@ -116,17 +129,13 @@
         <!-- / Top slider single slide --> 
          <!-- Top slider single slide -->
         <div class="mu-top-slider-single"8 style="width: 100%; height: 110vh;">
-          <img src="assets/img/slider/fıstıklı.png " alt="img" width="100%" height="100%">
+          <img src="assets/img/slider/mini-cake.png " alt="img" width="100%" height="100%">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Delicious</span>
             <h2 class="mu-slider-title">FRESH FOODS</h2>
             <p>
-              From ingredients to packaging and shipping,
-              we have installed a 100% reliable and consistent quality
-              monitoring process to ensure that every
-              Lifano product has impeccable taste,
-              freshness and appeal.  
+              Lifano offers high-quality products to professional food establishments and individuals throughout Estonia.
             <p>           
             <a href="#" class="mu-readmore-btn">READ MORE</a>
           </div>
@@ -1333,8 +1342,10 @@
                 <div class="col-md-6">
                   <div class="mu-contact-right">
                     <div class="mu-contact-widget">
-                      <h3>Office Address</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+                      <h3>Info</h3>
+                      <p>
+                        Lifano offers high-quality products to professional food establishments and individuals throughout Estonia.
+                      </p>
                       <address>
                         <p><i class="fa fa-phone"></i> +37255507776 
                         </p>
@@ -1375,9 +1386,9 @@
         <div class="col-md-12">
         <div class="mu-footer-area">
            <div class="mu-footer-social">
-            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="https://www.facebook.com/profile.php?id=100086796574883&sk=mentions"><span class="fa fa-facebook"></span></a>
             <a href="#"><span class="fa fa-twitter"></span></a>
-            <a href="#"><span class="fa fa-google-plus"></span></a>
+            <a href="https://www.instagram.com/lifanofoods/"><span class="fa fa-instagram"></span></a>
             <a href="#"><span class="fa fa-linkedin"></span></a>
             <a href="#"><span class="fa fa-youtube"></span></a>
           </div>
