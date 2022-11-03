@@ -85,7 +85,7 @@ if (window.location.hash) {
     l_frs.textContent = language.est.lifanoFresh;
     l_ice.textContent = language.est.lifanoMarash;
     frs.textContent = language.est.frsh;
-    brk.textContent = language.est.breakfast;
+    brkf.textContent = language.est.breakfast;
     delic.textContent = language.est.delicious;
     dinn.textContent = language.est.dinner;
     hot.textContent = language.est.hot;
