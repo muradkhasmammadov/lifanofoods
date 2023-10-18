@@ -1,2 +1,2 @@
 # lifanofoods
-lifanofoods.ee
+[lifanofoods.ee](https://lifanofoods.ee/)https://lifanofoods.ee/
